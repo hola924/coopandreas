@@ -1,0 +1,5 @@
+// Muestra u oculta el menú de navegación
+document.getElementById("menu-btn").addEventListener("click", () => {
+  const menu = document.getElementById("menu");
+  menu.classList.toggle("hidden");
+});
